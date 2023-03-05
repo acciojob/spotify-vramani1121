@@ -8,6 +8,9 @@ public class Song {
     public Song(){
 
     }
+    public Song(String title){
+        this.title = title;
+    }
 
     public Song(String title, int length){
         this.title = title;
